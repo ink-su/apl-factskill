@@ -1,0 +1,7 @@
+{
+  "name": "3dgeometry",
+  "dependencies": {
+    "ask-sdk-core": "^2.1.0-beta.4",
+    "ask-sdk-model": "^1.4.0-beta.1"
+  }
+}
