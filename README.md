@@ -3,7 +3,7 @@ A simple fact skill for alexa using APL
 
 # How to Use:
 - Run npm install.
-- Change values in data folder.
+- Change values in data (skill.json shapes.json) folder.
 - Compress all files into a zip file.
 - Upload to a lambda function.
 # What it is:

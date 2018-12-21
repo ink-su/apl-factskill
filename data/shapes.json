@@ -1,8 +1,92 @@
 [
   {
-    "name": "cube",
-    "family": "",
-    "description" : "a cube has six equal sides.",
+    "name": "Cube",
+    "family": "Cuboid",
+    "description" : "A cube has six equal sides, 12 equal edges, and 8 corners. Each of its sides are a square.",
+    "image" : "https://d2o906d8ln7ui1.cloudfront.net/images/MollyforBT7.png"
+  },
+  {
+    "name": "Rectangular Prism",
+    "family": "Cuboid Prism",
+    "description" : "A rectangular prism has six sides that are rectangles. It has a rectangular base. It has the same cross section along its length making it a prism.",
+    "image" : "https://d2o906d8ln7ui1.cloudfront.net/images/MollyforBT7.png"
+  },
+  {
+    "name": "Triangular Prism",
+    "family": "Prism",
+    "description" : "A triangular prism has three rectangular sides, and two triangular bases. It has five sides in total.",
+    "image" : "https://d2o906d8ln7ui1.cloudfront.net/images/MollyforBT7.png"
+  },
+  {
+    "name": "Hexagonal Prism",
+    "family": "Prism",
+    "description" : "A hexagonal prism has 8 faces, 18 edges, and 12 corners. Its bases are hexagons, meaning it has 6 faces which are rectangles.",
+    "image" : "https://d2o906d8ln7ui1.cloudfront.net/images/MollyforBT7.png"
+  },
+  {
+    "name": "Square Pyramid",
+    "family": "Pyramid",
+    "description" : "A square pyramid has 5 sides. It has a square base and four triangles faces. The triangles are connected to the base and form a point.",
+    "image" : "https://d2o906d8ln7ui1.cloudfront.net/images/MollyforBT7.png"
+  },
+  {
+    "name": "Rectangular Pyramid",
+    "family": "Pyramid",
+    "description" : "A rectangular pyramid has 5 sides. It has a rectangular base and four triangles faces. The triangles are connected to the base and form a point.",
+    "image" : "https://d2o906d8ln7ui1.cloudfront.net/images/MollyforBT7.png"
+  },
+  {
+    "name": "Triangular Pyramid",
+    "family": "Pyramid",
+    "description" : "A triangular pyramid has 4 sides. It has a triangle base and three triangles faces.",
+    "image" : "https://d2o906d8ln7ui1.cloudfront.net/images/MollyforBT7.png"
+  },
+  {
+    "name": "Hexagonal Pyramid",
+    "family": "Hexahedron",
+    "description" : "A hexagonal pyramid has 7 sides. It has a hexagon base and six triangles faces. All triangles are connected to the base and form a point opposite to the base.",
+    "image" : "https://d2o906d8ln7ui1.cloudfront.net/images/MollyforBT7.png"
+  },
+  {
+    "name": "Cynlinder",
+    "family": "Prism",
+    "description" : "A cynlinder has three faces. It is made of two circles and a rectangle. The rectangle connects to both of the circles to form a long shape. It is a prism with circle bases.",
+    "image" : "https://d2o906d8ln7ui1.cloudfront.net/images/MollyforBT7.png"
+  },
+  {
+    "name": "Cone",
+    "family": "Cone",
+    "description" : "A cone has two faces. It can be thought of as a circle based pyramid. A cone has a flat base with each edge of the base connecting to a single point.",
+    "image" : "https://d2o906d8ln7ui1.cloudfront.net/images/MollyforBT7.png"
+  },
+  {
+    "name": "Sphere",
+    "family": "Sphere",
+    "description" : "A sphere has one side. It is perfectly round. It is defined as a set of points that are equal distance from a given point.",
+    "image" : "https://d2o906d8ln7ui1.cloudfront.net/images/MollyforBT7.png"
+  },
+  {
+    "name": "Torus",
+    "family": "Surface of Revolution",
+    "description" : "A torus has one side. It is made by rotating a circle around a fixed point. It looks like a ring or donut.",
+    "image" : "https://d2o906d8ln7ui1.cloudfront.net/images/MollyforBT7.png"
+  },
+  {
+    "name": "Octahedron",
+    "family": "Polyhedron",
+    "description" : "An octahedron has eight sides. It is made by connecting eight equal sized triangles.",
+    "image" : "https://d2o906d8ln7ui1.cloudfront.net/images/MollyforBT7.png"
+  },
+  {
+    "name": "Ellipsoid",
+    "family": "Quadratic Surface",
+    "description" : "An ellipsoid has one side. It is made by deforming a sphere by stretching it in a direction.",
+    "image" : "https://d2o906d8ln7ui1.cloudfront.net/images/MollyforBT7.png"
+  },
+  {
+    "name": "Hemisphere",
+    "family": "Quadratic Surface",
+    "description" : "An hemisphere has two sides. It is made by dividing a sphere in half.",
     "image" : "https://d2o906d8ln7ui1.cloudfront.net/images/MollyforBT7.png"
   }
 ]
