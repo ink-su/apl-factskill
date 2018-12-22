@@ -1,9 +1,9 @@
 {
-  "title": "3D Geometry",
+  "title": "3D shape",
   "background": "https://d2o906d8ln7ui1.cloudfront.net/images/BT7_Background.png",
   "startImage": "https://d2o906d8ln7ui1.cloudfront.net/images/MollyforBT7.png",
   "logo": "https://d2o906d8ln7ui1.cloudfront.net/images/cheeseskillicon.png",
-  "welcome": "Welcome to 3d geometry. Learn about geometry.",
+  "welcome": "Welcome to 3d shapes. Learn about geometry.",
   "description": "I can tell you about three dimensional shapes.",
   "hint": "Try, \"Alexa, get me a shape\""
 }
