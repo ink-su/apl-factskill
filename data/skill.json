@@ -1,8 +1,8 @@
 {
   "title": "3D shapes",
   "background": "https://ink-su.github.io/apl-factskill/skill/background.png",
-  "startImage": "https://ink-su.github.io/apl-factskill/skill/startimg.png",
-  "logo": "https://ink-su.github.io/apl-factskill/skill/large.png",
+  "startImage": "https://ink-su.github.io/apl-factskill/skill/starting.png",
+  "logo": "https://ink-su.github.io/apl-factskill/skill/logo.png",
   "welcome": "Welcome to 3d shapes. Learn about geometry.",
   "description": "I can tell you about three dimensional shapes.",
   "hint": "Try, \"Alexa, get me a shape\""
