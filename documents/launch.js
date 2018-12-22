@@ -170,8 +170,8 @@ module.exports = () => {
                                     "type": "Image",
                                     "source": "${payload.data.properties.image.sources[0].url}",
                                     "scale": "best-fill",
-                                    "width": "100vh",
-                                    "height": "70vw",
+                                    "width": "100vw",
+                                    "height": "70vh",
                                     "align": "center"
                                 }
                             ]
@@ -205,7 +205,7 @@ module.exports = () => {
                             "items": [
                                 {
                                     "type": "Image",
-                                    "height": "75vh",
+                                    "height": "80vh",
                                     "width": "90vw",
                                     "source": "${payload.data.properties.image.sources[0].url}",
                                     "scale": "best-fill",
