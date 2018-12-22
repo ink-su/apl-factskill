@@ -48,9 +48,9 @@
     "image" : "https://ink-su.github.io/apl-factskill/shapes/hexagonal-pyramid.png"
   },
   {
-    "name": "Cynlinder",
+    "name": "Cylinder",
     "family": "Prism",
-    "description" : "A cynlinder has three faces. It is made of two circles and a rectangle. The rectangle connects to both of the circles to form a long shape. It is a prism with circle bases.",
+    "description" : "A cylinder has three faces. It is made of two circles and a rectangle. The rectangle connects to both of the circles to form a long shape. It is a prism with circle bases.",
     "image" : "https://ink-su.github.io/apl-factskill/shapes/cylinder.png"
   },
   {
