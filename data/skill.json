@@ -1,8 +1,8 @@
 {
   "title": "3D shape",
-  "background": "https://d2o906d8ln7ui1.cloudfront.net/images/BT7_Background.png",
-  "startImage": "https://d2o906d8ln7ui1.cloudfront.net/images/MollyforBT7.png",
-  "logo": "https://d2o906d8ln7ui1.cloudfront.net/images/cheeseskillicon.png",
+  "background": "https://ink-su.github.io/apl-factskill/skill/background.png",
+  "startImage": "https://ink-su.github.io/apl-factskill/skill/startimg.png",
+  "logo": "https://ink-su.github.io/apl-factskill/skill/large.png",
   "welcome": "Welcome to 3d shapes. Learn about geometry.",
   "description": "I can tell you about three dimensional shapes.",
   "hint": "Try, \"Alexa, get me a shape\""
