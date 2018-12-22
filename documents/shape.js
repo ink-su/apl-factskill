@@ -13,7 +13,7 @@ module.exports = (shape) => {
     "document": {
         "type": "APL",
         "version": "1.0",
-        "theme": "dark",
+        "theme": "light",
         "import": [
             {
                 name: 'alexa-styles',
@@ -28,7 +28,7 @@ module.exports = (shape) => {
             {
                 "description": "Stock color for the light theme",
                 "colors": {
-                    "colorTextPrimary": "#151920"
+                    "colorTextPrimary": "#f0f1ef"
                 }
             },
             {
