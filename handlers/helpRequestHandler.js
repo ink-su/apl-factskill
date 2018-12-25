@@ -5,6 +5,7 @@ const HelpRequestHandler = Handler('AMAZON.HelpIntent', handlerInput => {
     .speak(skill.description)
     .reprompt(skill.hint)
     .addConfirmIntentDirective()
+    .withShouldEndSession(false)
     .getResponse();
 });
 

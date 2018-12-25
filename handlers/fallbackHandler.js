@@ -6,6 +6,7 @@ const FallbackHandler = Handler('AMAZON.FallbackIntent', handlerInput =>
     .speak("I'm sorry, I didn't get that.")
     .reprompt(skill.hint)
     .addConfirmIntentDirective()
+    .withShouldEndSession(false)
     .getResponse()
 );
 

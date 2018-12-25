@@ -8,6 +8,7 @@ module.exports = {
       return handlerInput.responseBuilder
         .addDirective(LaunchDirective())
         .speak(skill.welcome +' Click to explore!.')
+        .reprompt(skill.hint)
         .withShouldEndSession(false)
         .getResponse();
     } else {
