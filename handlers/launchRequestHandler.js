@@ -7,13 +7,13 @@ module.exports = {
     if (handlerInput.requestEnvelope.context.System.device.supportedInterfaces['Alexa.Presentation.APL']) {
       return handlerInput.responseBuilder
         .addDirective(LaunchDirective())
-        .speak(skill.welcome +' Click to explore!.')
+        .speak(skill.welcome +' Click to explore or ask me for a shape!.')
         .reprompt(skill.hint)
         .withShouldEndSession(false)
         .getResponse();
     } else {
       return handlerInput.responseBuilder
-        .speak(skill.welcome)
+        .speak(skill.welcome + ' Ask me for a shape!')
         .reprompt(skill.hint)
         .withShouldEndSession(false)
         .getResponse();

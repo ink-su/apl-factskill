@@ -26,14 +26,14 @@
   {
     "name": "Square Pyramid",
     "family": "Pyramid",
-    "description" : "A square pyramid has 5 sides. It has a square base and four triangles faces. The triangles are connected to the base and form a point.",
+    "description" : "A square pyramid has a square base and four triangles faces. The triangles are connected to the base and form a point.",
     "image" : "https://ink-su.github.io/apl-factskill/shapes/square-pyramid.png"
   },
   {
-    "name": "Rectangular Pyramid",
+    "name": "Rect Pyramid",
     "family": "Pyramid",
     "description" : "A rectangular pyramid has 5 sides. It has a rectangular base and four triangles faces. The triangles are connected to the base and form a point.",
-    "image" : "https://ink-su.github.io/apl-factskill/shapes/rectangular-pyramid.png"
+    "image" : "https://ink-su.github.io/apl-factskill/shapes/rectangular-pyramid.jpg"
   },
   {
     "name": "Triangular Pyramid",
@@ -44,13 +44,13 @@
   {
     "name": "Hexagonal Pyramid",
     "family": "Hexahedron",
-    "description" : "A hexagonal pyramid has 7 sides. It has a hexagon base and six triangles faces. All triangles are connected to the base and form a point opposite to the base.",
+    "description" : "A hexagonal pyramid has 7 sides. It has a hexagon base and six triangles faces.",
     "image" : "https://ink-su.github.io/apl-factskill/shapes/hexagonal-pyramid.png"
   },
   {
     "name": "Cylinder",
     "family": "Prism",
-    "description" : "A cylinder has three faces. It is made of two circles and a rectangle. The rectangle connects to both of the circles to form a long shape. It is a prism with circle bases.",
+    "description" : "A cylinder has three faces. It is made of two circles and a rectangle. It is a prism with circle bases.",
     "image" : "https://ink-su.github.io/apl-factskill/shapes/cylinder.png"
   },
   {
@@ -81,7 +81,7 @@
     "name": "Ellipsoid",
     "family": "Quadratic Surface",
     "description" : "An ellipsoid has one side. It is made by deforming a sphere by stretching it in a direction.",
-    "image" : "https://ink-su.github.io/apl-factskill/shapes/ellipsoid.png"
+    "image" : "https://ink-su.github.io/apl-factskill/shapes/ellipsoide.png"
   },
   {
     "name": "Hemisphere",

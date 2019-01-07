@@ -151,13 +151,23 @@ module.exports = (shape) => {
                     "direction": "column",
                     "width": "100vw",
                     "height": "100vh",
+                    "alignItems": "center",
+                    "justifyContent": "center",
                     "items": [
                         {
                             "type": "Image",
-                            "source": "${payload.data.properties.image.sources[0].url}",
+                            "source": "${payload.data.properties.trueBackgroundImage.sources[0].url}",
                             "scale": "best-fill",
+                            "position": "absolute",
                             "width": "100vw",
-                            "height": "100vh",
+                            "height": "100vh"
+                        },
+                        {
+                            "type": "Image",
+                            "source": "${payload.data.properties.image.sources[0].url}",
+                            "scale": "best-fit",
+                            "width": "60vw",
+                            "height": "60vh",
                             "position": "absolute",
                             "overlayColor": "rgba(0, 0, 0, 0.6)"
                         },
@@ -170,8 +180,8 @@ module.exports = (shape) => {
                                     "type": "Container",
                                     "direction": "column",
                                     "alignItems": "center",
-                                    "paddingLeft": 30,
-                                    "paddingRight": 30,
+                                    "paddingLeft": 40,
+                                    "paddingRight": 40,
                                     "paddingBottom": 200,
                                     "items": [
                                         {
@@ -280,6 +290,25 @@ module.exports = (shape) => {
         "data": {
             "type": "object",
             properties: {
+                "trueBackgroundImage": {
+                    "contentDescription": null,
+                    "smallSourceUrl": null,
+                    "largeSourceUrl": null,
+                    "sources": [
+                        {
+                            "url": skill.background,
+                            "size": "small",
+                            "widthPixels": 0,
+                            "heightPixels": 0
+                        },
+                        {
+                            "url": skill.background,
+                            "size": "large",
+                            "widthPixels": 0,
+                            "heightPixels": 0
+                        }
+                    ]
+                },
                 "backgroundImage": {
                     "sources": [
                         {

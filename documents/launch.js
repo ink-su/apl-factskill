@@ -169,7 +169,7 @@ module.exports = () => {
                                 {
                                     "type": "Image",
                                     "source": "${payload.data.properties.image.sources[0].url}",
-                                    "scale": "best-fill",
+                                    "scale": "best-fit",
                                     "width": "100vw",
                                     "height": "70vh",
                                     "align": "center"

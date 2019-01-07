@@ -3,9 +3,8 @@ const skill = require('../data/skill.json');
 
 const FallbackHandler = Handler('AMAZON.FallbackIntent', handlerInput =>
   handlerInput.responseBuilder
-    .speak("I'm sorry, I didn't get that.")
+    .speak("I'm sorry, I didn't get that. Try asking get me a shape.")
     .reprompt(skill.hint)
-    .addConfirmIntentDirective()
     .withShouldEndSession(false)
     .getResponse()
 );

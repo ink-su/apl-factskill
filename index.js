@@ -8,7 +8,7 @@ const ShapeRequestHandler = require('./handlers/getShapeHandler');
 
 const SessionEndedRequestHandler = {
   canHandle: (handlerInput) => handlerInput.requestEnvelope.request.type === 'SessionEndedRequest',
-  handle: (handlerInput) => handlerInput.responseBuilder.speak("I hoped you've learned your visit.").getResponse()
+  handle: (handlerInput) => handlerInput.responseBuilder.speak("I hoped you've learned from your visit.").getResponse()
 };
 
 exports.handler = Alexa.SkillBuilders.custom()
