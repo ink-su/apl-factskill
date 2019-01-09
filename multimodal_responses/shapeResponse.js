@@ -4,12 +4,21 @@ const shapeData = require('../data/shapes.json');
 const skill = require('../data/skill.json');
 
 module.exports = (handlerInput, speak = true) => {
+  const attributes = handlerInput.attributesManager.getSessionAttributes();
   let shape = shapeData[Math.floor(Math.random() * shapeData.length)];
+  if (attributes.lastItem) {
+    while (attributes.lastItem === shape.name) {
+      shape = shapeData[Math.floor(Math.random() * shapeData.length)];
+    }
+  }
+  attributes.lastItem = shape.name;
+  handlerInput.attributesManager.setSessionAttributes(attributes);
+  
   let speech = shape.description + ' ' + skill.reprompt;
   if (handlerInput.requestEnvelope.context.System.device.supportedInterfaces['Alexa.Presentation.APL']) {
     return handlerInput.responseBuilder
       .addDirective(ShapeDirective(shape))
-      .speak(speak && (speech + "  Or click the screen."))
+      .speak(speak && (speech + " Or click to explore."))
       .reprompt(skill.reprompt)
       .withShouldEndSession(false)
       .getResponse();
