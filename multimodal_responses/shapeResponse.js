@@ -18,7 +18,7 @@ module.exports = (handlerInput, speak = true) => {
   if (handlerInput.requestEnvelope.context.System.device.supportedInterfaces['Alexa.Presentation.APL']) {
     return handlerInput.responseBuilder
       .addDirective(ShapeDirective(shape))
-      .speak(speak && (speech + " Or click to explore."))
+      .speak(speak && (speech))
       .reprompt(skill.reprompt)
       .withShouldEndSession(false)
       .getResponse();
