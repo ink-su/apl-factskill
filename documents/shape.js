@@ -162,15 +162,15 @@ module.exports = (shape) => {
                             "width": "100vw",
                             "height": "100vh"
                         },
-                        {
-                            "type": "Image",
-                            "source": "${payload.data.properties.image.sources[0].url}",
-                            "scale": "best-fit",
-                            "width": "60vw",
-                            "height": "60vh",
-                            "position": "absolute",
-                            "overlayColor": "rgba(0, 0, 0, 0.6)"
-                        },
+                        // {
+                        //     "type": "Image",
+                        //     "source": "${payload.data.properties.image.sources[0].url}",
+                        //     "scale": "best-fit",
+                        //     "width": "60vw",
+                        //     "height": "60vh",
+                        //     "position": "absolute",
+                        //     "overlayColor": "rgba(0, 0, 0, 1)"
+                        // },
                         {
                             "type": "ScrollView",
                             "width": "100vw",
@@ -206,11 +206,19 @@ module.exports = (shape) => {
                                         {
                                             "type": "Text",
                                             "text": "${payload.data.properties.textContent.primaryText.text}",
-                                            "paddingTop": 40,
+                                            "paddingTop": 10,
                                             "style": "textStylePrimary",
                                             "width": "90vw",
                                             "textAlign": "center"
-                                        }
+                                        },
+                                        {
+                                            "type": "Image",
+                                            "source": "${payload.data.properties.image.sources[0].url}",
+                                            "scale": "best-fit",
+                                            "width": "20vw",
+                                            "height": "15vh",
+                                            "position": "absolute",
+                                        },
                                     ]
                                 }
                             ]
