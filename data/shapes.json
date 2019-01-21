@@ -2,91 +2,91 @@
   {
     "name": "Cube",
     "family": "Cuboid",
-    "description" : "A cube has six equal sides, 12 equal edges, and 8 corners. Each of its sides are a square.",
-    "image" : "https://ink-su.github.io/apl-factskill/shapes/cube.png"
+    "description": "A cube has six equal sides, 12 equal edges, and 8 corners. Each of its sides are a square.",
+    "image": "https://ink-su.github.io/apl-factskill/shapes/cube.png"
   },
   {
-    "name": "Rectangular Prism",
+    "name": "Rect. Prism",
     "family": "Cuboid Prism",
-    "description" : "A rectangular prism has six sides that are rectangles. It has a rectangular base. It has the same cross section along its length making it a prism.",
-    "image" : "https://ink-su.github.io/apl-factskill/shapes/rectangular-prism.png"
+    "description": "A rectangular prism has six sides that are rectangles. It has a rectangular base. It has the same cross section along its length making it a prism.",
+    "image": "https://ink-su.github.io/apl-factskill/shapes/rectangular-prism.png"
   },
   {
     "name": "Triangular Prism",
     "family": "Prism",
-    "description" : "A triangular prism has three rectangular sides, and two triangular bases. It has five sides in total.",
-    "image" : "https://ink-su.github.io/apl-factskill/shapes/triangular-prism.png"
+    "description": "A triangular prism has three rectangular sides, and two triangular bases. It has five sides in total.",
+    "image": "https://ink-su.github.io/apl-factskill/shapes/triangular-prism.png"
   },
   {
     "name": "Hexagonal Prism",
     "family": "Prism",
-    "description" : "A hexagonal prism has 8 faces, 18 edges, and 12 corners. Its bases are hexagons, meaning it has 6 faces which are rectangles.",
-    "image" : "https://ink-su.github.io/apl-factskill/shapes/hexagonal-prism.png"
+    "description": "A hexagonal prism has 8 faces, 18 edges, and 12 corners. Its bases are hexagons, meaning it has 6 faces which are rectangles.",
+    "image": "https://ink-su.github.io/apl-factskill/shapes/hexagonal-prism.png"
   },
   {
     "name": "Square Pyramid",
     "family": "Pyramid",
-    "description" : "A square pyramid has a square base and four triangles faces. The triangles are connected to the base and form a point.",
-    "image" : "https://ink-su.github.io/apl-factskill/shapes/square-pyramid.png"
+    "description": "A square pyramid has a square base and four triangles faces. The triangles are connected to the base and form a point.",
+    "image": "https://ink-su.github.io/apl-factskill/shapes/square-pyramid.png"
   },
   {
     "name": "Rect. Pyramid",
     "family": "Pyramid",
-    "description" : "A rectangular pyramid has 5 sides. It has a rectangular base and four triangles faces. The triangles are connected to the base and form a point.",
-    "image" : "https://ink-su.github.io/apl-factskill/shapes/rectangular-pyramid.jpg"
+    "description": "A rectangular pyramid has 5 sides. It has a rectangular base and four triangles faces. The triangles are connected to the base and form a point.",
+    "image": "https://ink-su.github.io/apl-factskill/shapes/rectangular-pyramid.jpg"
   },
   {
     "name": "Triangular Pyramid",
     "family": "Pyramid",
-    "description" : "A triangular pyramid has 4 sides. It has a triangle base and three triangles faces.",
-    "image" : "https://ink-su.github.io/apl-factskill/shapes/triangular-pyramid.png"
+    "description": "A triangular pyramid has 4 sides. It has a triangle base and three triangles faces.",
+    "image": "https://ink-su.github.io/apl-factskill/shapes/triangular-pyramid.png"
   },
   {
     "name": "Hexagonal Pyramid",
     "family": "Hexahedron",
-    "description" : "A hexagonal pyramid has 7 sides. It has a hexagon base and six triangles faces.",
-    "image" : "https://ink-su.github.io/apl-factskill/shapes/hexagonal-pyramid.png"
+    "description": "A hexagonal pyramid has 7 sides. It has a hexagon base and six triangles faces.",
+    "image": "https://ink-su.github.io/apl-factskill/shapes/hexagonal-pyramid.png"
   },
   {
     "name": "Cylinder",
     "family": "Prism",
-    "description" : "A cylinder has three faces. It is made of two circles and a rectangle. It is a prism with circle bases.",
-    "image" : "https://ink-su.github.io/apl-factskill/shapes/cylinder.png"
+    "description": "A cylinder has three faces. It is made of two circles and a rectangle. It is a prism with circle bases.",
+    "image": "https://ink-su.github.io/apl-factskill/shapes/cylinder.png"
   },
   {
     "name": "Cone",
     "family": "Cone",
-    "description" : "A cone has two faces. It can be thought of as a circle based pyramid. A cone has a flat base and a pointed tip.",
-    "image" : "https://ink-su.github.io/apl-factskill/shapes/cone.png"
+    "description": "A cone has two faces. It can be thought of as a circle based pyramid. A cone has a flat base and a pointed tip.",
+    "image": "https://ink-su.github.io/apl-factskill/shapes/cone.png"
   },
   {
     "name": "Sphere",
     "family": "Sphere",
-    "description" : "A sphere has one side. It is perfectly round. It is defined as a set of points that are equal distance from a given point.",
-    "image" : "https://ink-su.github.io/apl-factskill/shapes/sphere.png"
+    "description": "A sphere has one side. It is perfectly round. It is defined as a set of points that are equal distance from a given point.",
+    "image": "https://ink-su.github.io/apl-factskill/shapes/sphere.png"
   },
   {
     "name": "Torus",
     "family": "Surface of Revolution",
-    "description" : "A torus has one side. It is made by rotating a circle around a fixed point. It looks like a ring or donut.",
-    "image" : "https://ink-su.github.io/apl-factskill/shapes/torus.png"
+    "description": "A torus has one side. It is made by rotating a circle around a fixed point. It looks like a ring or donut.",
+    "image": "https://ink-su.github.io/apl-factskill/shapes/torus.png"
   },
   {
     "name": "Octahedron",
     "family": "Polyhedron",
-    "description" : "An octahedron has eight sides. It is made by connecting eight equal sized triangles.",
-    "image" : "https://ink-su.github.io/apl-factskill/shapes/octahedron.jpg"
+    "description": "An octahedron has eight sides. It is made by connecting eight equal sized triangles.",
+    "image": "https://ink-su.github.io/apl-factskill/shapes/octahedron.jpg"
   },
   {
     "name": "Ellipsoid",
     "family": "Quadratic Surface",
-    "description" : "An ellipsoid has one side. It is made by deforming a sphere by stretching it in a direction.",
-    "image" : "https://ink-su.github.io/apl-factskill/shapes/ellipsoide.png"
+    "description": "An ellipsoid has one side. It is made by deforming a sphere by stretching it in a direction.",
+    "image": "https://ink-su.github.io/apl-factskill/shapes/ellipsoide.png"
   },
   {
     "name": "Hemisphere",
     "family": "Quadratic Surface",
-    "description" : "An hemisphere has two sides. It is made by dividing a sphere in half.",
-    "image" : "https://ink-su.github.io/apl-factskill/shapes/hemisphere.png"
+    "description": "An hemisphere has two sides. It is made by dividing a sphere in half.",
+    "image": "https://ink-su.github.io/apl-factskill/shapes/hemisphere.png"
   }
 ]
