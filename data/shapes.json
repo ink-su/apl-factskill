@@ -3,13 +3,13 @@
     "name": "Cube",
     "family": "Cuboid",
     "description": "A cube has six equal sides, 12 equal edges, and 8 corners. Each of its sides are a square.",
-    "image": "https://ink-su.github.io/apl-factskill/shapes/cube.png"
+    "image": "https://ink-su.github.io/apl-factskill/shapes/cube.jpg"
   },
   {
     "name": "Rect. Prism",
     "family": "Cuboid Prism",
     "description": "A rectangular prism has six sides that are rectangles. It has a rectangular base. It has the same cross section along its length making it a prism.",
-    "image": "https://ink-su.github.io/apl-factskill/shapes/rectangular-prism.png"
+    "image": "https://ink-su.github.io/apl-factskill/shapes/rectangular-prism.jpg"
   },
   {
     "name": "Triangular Prism",
@@ -69,7 +69,7 @@
     "name": "Torus",
     "family": "Surface of Revolution",
     "description": "A torus has one side. It is made by rotating a circle around a fixed point. It looks like a ring or donut.",
-    "image": "https://ink-su.github.io/apl-factskill/shapes/torus.png"
+    "image": "https://ink-su.github.io/apl-factskill/shapes/torus.jpg"
   },
   {
     "name": "Octahedron",
