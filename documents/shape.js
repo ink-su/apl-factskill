@@ -181,13 +181,15 @@ module.exports = (shape) => {
                                                     "headerTitle": "${payload.data.properties.title}",
                                                     "scale": "best-fit",
                                                     "height": "20vh",
+                                                    "paddingBottom": 40,
                                                 },
                                                 {
                                                     "type": "Text",
                                                     "text": "<b>${payload.data.properties.textContent.title.text}</b>",
                                                     "style": "textStyleBody",
                                                     "width": "80vw",
-                                                    "textAlign": "center"
+                                                    "textAlign": "center",
+                                                    "paddingTop": 10,
                                                 },
                                                 {
                                                     "type": "Text",
@@ -199,7 +201,6 @@ module.exports = (shape) => {
                                                 {
                                                     "type": "Text",
                                                     "text": "${payload.data.properties.textContent.primaryText.text}",
-                                                    "paddingTop": 10,
                                                     "style": "textStylePrimary",
                                                     "width": "90vw",
                                                     "textAlign": "center"
@@ -247,12 +248,14 @@ module.exports = (shape) => {
                                             "width": 340,
                                             "height": 360,
                                             "scale": "best-fit",
-                                            "align": "center"
+                                            "align": "center",
+                                            "paddingRight": 40,
                                         },
                                         {
                                             "type": "ScrollView",
                                             "height": "60vh",
                                             "shrink": 1,
+                                            "paddingLeft": 40,
                                             "item": [
                                                 {
                                                     "type": "Container",
